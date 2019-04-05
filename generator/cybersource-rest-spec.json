@@ -11194,7 +11194,6 @@
 						"in": "body",
 						"required": true,
 						"schema": {
-							"title": "ptsV2PayoutsPostResponse",
 							"type": "object",
 							"properties": {
 								"clientReferenceInformation": {
@@ -12457,7 +12456,7 @@
 						"maxLength": 32
 					}, {
 						"in": "body",
-						"name": "requestBody",
+						"name": "createAdhocReportRequest",
 						"description": "Report subscription request payload",
 						"required": true,
 						"schema": {
@@ -13473,7 +13472,7 @@
 						"maxLength": 32
 					}, {
 						"in": "body",
-						"name": "requestBody",
+						"name": "createSubscriptionRequest",
 						"description": "Report subscription request payload",
 						"required": true,
 						"schema": {
@@ -16025,7 +16024,7 @@
 						"minLength": 36,
 						"maxLength": 36
 					}, {
-						"name": "Body",
+						"name": "createInstrumentIdentifierRequest",
 						"in": "body",
 						"description": "Please specify either a Card or Bank Account.",
 						"required": true,
@@ -17227,7 +17226,7 @@
 						"minLength": 16,
 						"maxLength": 32
 					}, {
-						"name": "Body",
+						"name": "updateInstrumentIdentifierRequest",
 						"in": "body",
 						"description": "Please specify the previous transaction Id to update.",
 						"required": true,
@@ -19142,7 +19141,7 @@
 						"minLength": 36,
 						"maxLength": 36
 					}, {
-						"name": "Body",
+						"name": "createPaymentInstrumentRequest",
 						"in": "body",
 						"description": "Please specify the customers payment details for card or bank account.",
 						"required": true,
@@ -20479,7 +20478,7 @@
 						"minLength": 16,
 						"maxLength": 32
 					}, {
-						"name": "Body",
+						"name": "updatePaymentInstrumentRequest",
 						"in": "body",
 						"description": "Please specify the customers payment details.",
 						"required": true,
@@ -24336,7 +24335,6 @@
 						"in": "body",
 						"required": true,
 						"schema": {
-							"title": "tssV2TransactionsPostResponse",
 							"type": "object",
 							"properties": {
 								"save": {
